@@ -2,7 +2,7 @@
 
 In this work,  we introduce IndT5,the  first  Transformer  language  model  for  In-digenous languages.  To train IndT5, we buildIndCorpus,  a  new  corpus  for10Indigenouslanguages  and  Spanish.   We  also  present  theapplication  of  IndT5  to  machine  translationby    investigating    different    approaches    totranslate between Spanish and the Indigenouslanguages  as  part  of  our  contribution  to  theAmericasNLP  2021  Shared  Task  on  OpenMachine  Translation.
 
-
+### Demographic information of 10 Indigenous languages
 |   **Language**   | **Language Code** | **Main Location** | **Number of Speakers** | 
 |------------------|-------------------|-------------------|------------------------|
 | Aymara           | aym               | Bolivia           | 1,677,100              |
@@ -17,7 +17,7 @@ In this work,  we introduce IndT5,the  first  Transformer  language  model  for 
 | Wixarika         | hch               | Mexico            | 52,500                 |
 
 
-
+### Number of sentences in parallel dataset (train, dev and test set)
 | **Language Pair** | **Train**        | **Dev**           | **Test**               | 
 |-------------------|------------------|-------------------|------------------------|
 |es-aym    | 6,531 | 996   | 1,003   |
@@ -32,7 +32,7 @@ In this work,  we introduce IndT5,the  first  Transformer  language  model  for 
 |es-hch  | 8,966 | 994   | 1,003  |
 
 
-
+### Data size and number of sentences in monolingual dataset (collected from Wikipedia and Bible)
 | **Target Language** | **Wiki Size (MB)**        | **Wiki #Sentences**           | **Bible Size (MB)**  | **Bible #Sentences**|
 |-------------------|------------------|-------------------|------------------------|-|
 |Hñähñu                   | -                |    -                             | 1.4     |    7.5K                                          |
