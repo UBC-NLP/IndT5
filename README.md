@@ -2,6 +2,9 @@
 
 In this work,  we introduce IndT5,the  first  Transformer  language  model  for  In-digenous languages.  To train IndT5, we buildIndCorpus,  a  new  corpus  for10Indigenouslanguages  and  Spanish.   We  also  present  theapplication  of  IndT5  to  machine  translationby    investigating    different    approaches    totranslate between Spanish and the Indigenouslanguages  as  part  of  our  contribution  to  theAmericasNLP  2021  Shared  Task  on  OpenMachine  Translation.
 
+# IndCourpus
+We build IndCorpus, a collection of 10 Indige-nous languages and Spanish comprising 1.17GB of text, from both Wikipedia and the Bible.
+
 ### Demographic information of 10 Indigenous languages
 |   **Language**   | **Language Code** | **Main Location** | **Number of Speakers** | 
 |------------------|-------------------|-------------------|------------------------|
@@ -15,22 +18,6 @@ In this work,  we introduce IndT5,the  first  Transformer  language  model  for 
 | Rarámuri         | tar               | Mexico            | 9,230                  |
 | Shipibo-Konibo   | shp               | Peru              | 22,500                 |
 | Wixarika         | hch               | Mexico            | 52,500                 |
-
-
-### Number of sentences in parallel dataset (train, dev and test set)
-| **Language Pair** | **Train**        | **Dev**           | **Test**               | 
-|-------------------|------------------|-------------------|------------------------|
-|es-aym    | 6,531 | 996   | 1,003   |
-|es-cni  | 3,883  | 883   | 1,003 |
-|es-bzd   | 7,506  | 996   | 1,003   |
-|es-gn   | 26,032 | 995   |  1,003   |
-|es-oto   | 4,889 | 599   | 1,003 |
-|es-nah    | 16,145 | 672   | 1,003   |
-|es-quy  | 125,008  | 996   | 1,003   |
-|es-tar   | 14,720  | 995   | 1,003   |
-|es-shp  | 14,592 | 996   |  1,003   |
-|es-hch  | 8,966 | 994   | 1,003  |
-
 
 ### Data size and number of sentences in monolingual dataset (collected from Wikipedia and Bible)
 | **Target Language** | **Wiki Size (MB)**        | **Wiki #Sentences**           | **Bible Size (MB)**  | **Bible #Sentences**|
@@ -47,3 +34,22 @@ In this work,  we introduce IndT5,the  first  Transformer  language  model  for 
 |Asháninka                | -                    |     -                       | 1.4    |   7.8K                                          |
 |Spanish                      | 1.13K             |    5M    | -              | - |
 |Total | 1.15K  |  5.22M   |    19.8 |     125.3K|
+
+
+# 
+### Number of sentences in parallel dataset (train, dev and test set)
+| **Language Pair** | **Train**        | **Dev**           | **Test**               | 
+|-------------------|------------------|-------------------|------------------------|
+|es-aym    | 6,531 | 996   | 1,003   |
+|es-cni  | 3,883  | 883   | 1,003 |
+|es-bzd   | 7,506  | 996   | 1,003   |
+|es-gn   | 26,032 | 995   |  1,003   |
+|es-oto   | 4,889 | 599   | 1,003 |
+|es-nah    | 16,145 | 672   | 1,003   |
+|es-quy  | 125,008  | 996   | 1,003   |
+|es-tar   | 14,720  | 995   | 1,003   |
+|es-shp  | 14,592 | 996   |  1,003   |
+|es-hch  | 8,966 | 994   | 1,003  |
+
+
+
