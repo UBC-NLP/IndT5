@@ -2,9 +2,13 @@
 
 In this work,  we introduce IndT5,the  first  Transformer  language  model  for  In-digenous languages.  To train IndT5, we buildIndCorpus,  a  new  corpus  for10Indigenouslanguages  and  Spanish.   We  also  present  theapplication  of  IndT5  to  machine  translationby    investigating    different    approaches    totranslate between Spanish and the Indigenouslanguages  as  part  of  our  contribution  to  theAmericasNLP  2021  Shared  Task  on  OpenMachine  Translation.
 
-Aymara & aym & Bolivia & 1,677,100  
-Asháninka & cni & Peru & 35,200  
-Bribri & bzd & Costa Rica & 7,000  
+
+| **Language** | **Language Code** | **Main Location** | **Number of Speakers** | 
+|--------------|-------------------|-------------------|------------------------|
+| Aymara       | aym               | Bolivia           | 1,677,100              |
+| Asháninka    | cni               | Peru              | 35,200                 |
+| Bribri       | bzd               | Costa Rica        | 7,000                  |
+
 Guarani & gn & Paraguay & 6,652,790  
 Hñähñu & oto & Mexico & 88,500  
 Nahuatl & nah & Mexico & 410,000  
