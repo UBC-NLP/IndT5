@@ -30,3 +30,19 @@ In this work,  we introduce IndT5,the  first  Transformer  language  model  for 
 |es-tar   | 14,720  | 995   | 1,003   |
 |es-shp  | 14,592 | 996   |  1,003   |
 |es-hch  | 8,966 | 994   | 1,003  |
+
+
+
+| **Target Language** | **Wiki Size (MB)**        | **Wiki #Sentences**           | **Bible Size (MB)**  | **Bible #Sentences**|
+|-------------------|------------------|-------------------|------------------------|-|
+|Hñähñu                   & -                &    -                             & 1.4     &    7.5K                                          |
+|Wixarika                 & -            &       -                             &  1.3   &   7.5K |
+|Nahuatl                  & 5.8           &    61.1K                         & 1.5  &      7.5K |
+|Guarani                  & 3.7            &      28.2K                           & 1.3 &      7.5K                                              |
+|Bribri                   & -               &    -                             & 1.5  &        7.5K                                        |
+|Rarámuri                 & -                &     -                            & 1.9  &         7.5K                                       |
+|Quechua                  & 5.9               &     97.3K                        & 4.9   &    31.1K                                            |
+|Aymara                   & 1.7                &     32.9K                         & 5   & 30.7K  |
+|Shipibo-Konibo           & -                   &     -                         & 1    &    7.9K                                             |
+|Asháninka                & -                    &     -                       & 1.4    &   7.8K                                          |
+|Spanish                  & 1.13K             &    5M    & -              & - |
