@@ -36,7 +36,8 @@ We build IndCorpus, a collection of 10 Indige-nous languages and Spanish compris
 |Total | 1.15K  |  5.22M   |    19.8 |     125.3K|
 
 
-# Information about parallel datasets provided by AmericasNLP 2021 Shared Task on Open Machine Translation (https://github.com/AmericasNLP/americasnlp2021)
+# Parallel datasets for machine translation 
+The datasets are provided by AmericasNLP 2021 Shared Task on Open Machine Translation (https://github.com/AmericasNLP/americasnlp2021).
 ### Number of sentences in parallel dataset (train, dev and test set)
 | **Language Pair** | **Train**        | **Dev**           | **Test**               | 
 |-------------------|------------------|-------------------|------------------------|
