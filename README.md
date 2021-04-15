@@ -1,6 +1,17 @@
 # IndT5: A Text-to-Text Transformer for 10 Indigenous Languages
 
-In this work,  we introduce IndT5,the  first  Transformer  language  model  for  In-digenous languages.  To train IndT5, we buildIndCorpus,  a  new  corpus  for10Indigenouslanguages  and  Spanish.   We  also  present  theapplication  of  IndT5  to  machine  translationby    investigating    different    approaches    totranslate between Spanish and the Indigenouslanguages  as  part  of  our  contribution  to  theAmericasNLP  2021  Shared  Task  on  OpenMachine  Translation.
+In this work,  we introduce IndT5,the  first  Transformer  language  model  for  Indigenous languages.  To train IndT5, we build **IndCorpus**,  a  new  corpus  for 10 Indigenous languages  and  Spanish. We  also  present  the application  of  IndT5  to  machine  translation by    investigating    different    approaches    to translate between Spanish and the Indigenous languages  as  part  of  our  contribution  to  theAmericasNLP  2021  Shared  Task  on  OpenMachine  Translation.
+
+# IndT5
+We train an Indigenous language model adopting the unified and flexible
+text-to-text transfer Transformer (T5) approach . T5 treats every
+text-based language task as a “text-to-text" problem, taking text format
+as input and producing new text format as output. T5 is essentially an
+encoder-decoder Transformer , with the encoder and decoder similar in
+configuration and size to a BERT<sub>Base</sub> but with some
+architectural modifications. Modifications include applying a
+normalization layer before a sub-block and adding a pre-norm (i.e.,
+initial input to the sub-block output).
 
 # IndCourpus
 We build IndCorpus, a collection of 10 Indige-nous languages and Spanish comprising 1.17GB of text, from both Wikipedia and the Bible.
