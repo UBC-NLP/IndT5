@@ -1,5 +1,5 @@
 # IndT5: A Text-to-Text Transformer for 10 Indigenous Languages
-<img src="IND_langs_large7.png" alt="drawing" width="40%" height="40%" align="right"/>
+<img src="IND_langs_large7.png" alt="drawing" width="50%" height="50%" align="right"/>
 In this work,  we introduce ```IndT5```, the  first  Transformer  language  model  for  Indigenous languages.  To train IndT5, we build ```IndCorpus```,  a  new  corpus  for 10 Indigenous languages  and  Spanish. We  also  present  the application  of  IndT5  to  machine  translation by    investigating    different    approaches    to translate between Spanish and the Indigenous languages  as  part  of  our  contribution  to  theAmericasNLP  2021  Shared  Task  on  OpenMachine  Translation.
 
 # IndT5
