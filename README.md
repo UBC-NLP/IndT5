@@ -64,7 +64,7 @@ The datasets are provided by AmericasNLP 2021 Shared Task on Open Machine Transl
 |es-hch  | 8,966 | 994   | 1,003  |
 
 
-# Bib
+# BibTex
 
 ```@inproceedings{chen2021indt5,
   title={IndT5: A Text-to-Text Transformer for 10 Indigenous Languages},
