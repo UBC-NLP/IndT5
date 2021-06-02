@@ -14,7 +14,7 @@ normalization layer before a sub-block and adding a pre-norm (i.e.,
 initial input to the sub-block output).
 
 # IndCourpus
-We build IndCorpus, a collection of 10 Indige-nous languages and Spanish comprising 1.17GB of text, from both Wikipedia and the Bible.
+We build IndCorpus, a collection of 10 Indigeous languages and Spanish comprising 1.17GB of text, from both Wikipedia and the Bible.
 
 ### Demographic information of 10 Indigenous languages
 |   **Language**   | **Language Code** | **Main Location** | **Number of Speakers** | 
