@@ -64,4 +64,12 @@ The datasets are provided by AmericasNLP 2021 Shared Task on Open Machine Transl
 |es-hch  | 8,966 | 994   | 1,003  |
 
 
+# Bib
 
+```@inproceedings{chen2021indt5,
+  title={IndT5: A Text-to-Text Transformer for 10 Indigenous Languages},
+  author={Chen, Wei-Rui and Abdul-Mageed, Muhammad and Cavusoglu, Hasan and others},
+  booktitle={Proceedings of the First Workshop on Natural Language Processing for Indigenous Languages of the Americas},
+  pages={265--271},
+  year={2021}
+}```
