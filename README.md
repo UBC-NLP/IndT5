@@ -12,6 +12,9 @@ configuration and size to a BERT<sub>Base</sub> but with some
 architectural modifications. Modifications include applying a
 normalization layer before a sub-block and adding a pre-norm (i.e.,
 initial input to the sub-block output).
+##  Download IndT5 Model
+
+**IndT5 model** (pytorch checkpoint) is available on Huggingface website for [direct download](https://huggingface.co/UBC-NLP/IndT5) and use exclusively for research.
 
 # IndCourpus
 We build IndCorpus, a collection of 10 Indigeous languages and Spanish comprising 1.17GB of text, from both Wikipedia and the Bible.
